@@ -1,4 +1,3 @@
-using System;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -13,7 +12,7 @@ namespace Framework.Challenge.Service.Extensions
         public static bool EPrimo(this int numero)
         {
             //Número 1 não é considerado primo pois só é divisivel por si.
-            if(numero <= 1)
+            if (numero <= 1)
                 return false;
 
             var divisores = ObterDivisores(numero);
@@ -27,7 +26,7 @@ namespace Framework.Challenge.Service.Extensions
         /// <returns>List de divisores</returns>
         public static List<int> ObterDivisores(this int numero)
         {
-            if(numero == 0)
+            if (numero <= 0)
                 return new List<int>();
 
             var possiveisDivisores = Enumerable.Range(1, numero);

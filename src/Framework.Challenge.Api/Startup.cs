@@ -29,6 +29,9 @@ namespace Framework.Challenge.Api
             });
 
             configureIoc(services);
+
+            services.AddCors();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -44,6 +47,12 @@ namespace Framework.Challenge.Api
             app.UseHttpsRedirection();
 
             app.UseRouting();
+
+            app.UseCors(options =>
+                options
+                    .AllowAnyHeader()
+                    .AllowAnyMethod()
+                    .AllowAnyOrigin());
 
             app.UseAuthorization();
 

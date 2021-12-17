@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Framework.Challenge.Api", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Framework.Challenge.Service", "Framework.Challenge.Service\Framework.Challenge.Service.csproj", "{43BA11DA-DD5E-4953-966E-05889679F9E3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Framework.Challenge.Test", "Framework.Challenge.Test\Framework.Challenge.Test.csproj", "{36741F98-237B-4CB1-97BA-CD77BD31317A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,5 +21,9 @@ Global
 		{43BA11DA-DD5E-4953-966E-05889679F9E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{43BA11DA-DD5E-4953-966E-05889679F9E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{43BA11DA-DD5E-4953-966E-05889679F9E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36741F98-237B-4CB1-97BA-CD77BD31317A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36741F98-237B-4CB1-97BA-CD77BD31317A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36741F98-237B-4CB1-97BA-CD77BD31317A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36741F98-237B-4CB1-97BA-CD77BD31317A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

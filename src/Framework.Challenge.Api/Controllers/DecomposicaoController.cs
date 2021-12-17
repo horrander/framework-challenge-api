@@ -1,7 +1,6 @@
 using System;
 using Framework.Challenge.Service.Contracts;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
 
 namespace Framework.Challenge.Api.Controllers
 {
@@ -15,7 +14,6 @@ namespace Framework.Challenge.Api.Controllers
         {
             _decomposicaoService = decomposicaoService;
         }
-
 
         [HttpGet("{numero:int}")]
         public IActionResult DecomporNumero(int numero)
